@@ -99,7 +99,7 @@
             this.buttonModifyPDFTime.Name = "buttonModifyPDFTime";
             this.buttonModifyPDFTime.Size = new System.Drawing.Size(152, 23);
             this.buttonModifyPDFTime.TabIndex = 6;
-            this.buttonModifyPDFTime.Text = "修改PDF时间";
+            this.buttonModifyPDFTime.Text = "修改文件时间";
             this.buttonModifyPDFTime.UseVisualStyleBackColor = true;
             this.buttonModifyPDFTime.Click += new System.EventHandler(this.buttonModifyPDFTime_Click);
             // 
@@ -118,7 +118,7 @@
             this.buttonSelectPDF.Name = "buttonSelectPDF";
             this.buttonSelectPDF.Size = new System.Drawing.Size(136, 23);
             this.buttonSelectPDF.TabIndex = 8;
-            this.buttonSelectPDF.Text = "选择要修改的PDF文件";
+            this.buttonSelectPDF.Text = "选择要修改的文件";
             this.buttonSelectPDF.UseVisualStyleBackColor = true;
             this.buttonSelectPDF.Click += new System.EventHandler(this.buttonSelectPDF_Click);
             // 
@@ -138,7 +138,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.createTime);
             this.Name = "Form1";
-            this.Text = "修改PDF时间";
+            this.Text = "修改文件时间";
             this.ResumeLayout(false);
             this.PerformLayout();
 

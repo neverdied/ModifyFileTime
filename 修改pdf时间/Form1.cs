@@ -40,7 +40,7 @@ namespace 修改pdf时间
             string path = string.Empty;
             OpenFileDialog openFileDialog = new OpenFileDialog()
             {
-                Filter = "Files (*.pdf)|*.pdf"//如果需要筛选txt文件（"Files (*.txt)|*.txt"）
+                Filter = "Files (*.*)|*.*"//如果需要筛选txt文件（"Files (*.txt)|*.txt"）
             };
 
             //var result = openFileDialog.ShowDialog();
